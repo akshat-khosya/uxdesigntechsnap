@@ -7,4 +7,37 @@
     background-image: linear-gradient(to right, rgba(26, 25, 25, 0.4), rgb(51,50,50, 0.4)), url(https://www.pirenko.com/fount-freelancer/wp-content/uploads/sites/20/2014/07/freelancer-sl.png);
     width: 100%;
     height: 100vh;
+    position: relative;
+}
+.vertical__carsole{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+.carousel-item active{
+    width: 100%;
+}
+.vertical__primary{
+    font-size: 32px;
+   
+    
 }
