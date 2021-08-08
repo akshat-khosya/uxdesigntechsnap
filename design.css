@@ -121,6 +121,46 @@
 .card__item:hover{
     transform: translateY(-1.5rem) scale(1.03);
 }
+.about__con{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 2%;
+}
+.about__item{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 0%;
+}
+.about__text{
+    color: white;
+    width: 80%;
+    line-height: 1.7;
+    font-size: 22px;
+}
+
+.about__laptop{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1300px){
     .card__con{
         flex-direction: column;
@@ -136,6 +176,27 @@
     .skills__card{
         text-align: center;
         
+    }
+    .about__con{
+        
+        flex-direction: column;
+        
+        
+    }
+    .about__item{
+            margin-left: 10%;
+            margin-right: 10%;
+            width: 100%;
+            margin-bottom: 5%;
+        
+    }
+    .about{
+       
+        height: auto;
+        
+    }
+    .about__laptop{
+        width: 80%;
     }
 }
 
