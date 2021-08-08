@@ -75,6 +75,7 @@
     width: 300px;
     border-radius: 10px;
     transition: transform .3s;
+    margin-top: 3%;
 }
 .card__box{
     width: 100%;
@@ -117,4 +118,21 @@
 }
 .card__item:hover{
     transform: translateY(-1.5rem) scale(1.03);
+}
+@media (max-width:1300px){
+    .card__con{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    .skills{
+        
+        height: auto;
+       
+        
+    }
+    .skills__card{
+        text-align: center;
+        
+    }
 }
