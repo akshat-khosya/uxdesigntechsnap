@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .section__top{
     background-image: linear-gradient(to right, rgba(26, 25, 25, 0.4), rgb(51,50,50, 0.4)), url(https://www.pirenko.com/fount-freelancer/wp-content/uploads/sites/20/2014/07/freelancer-sl.png);
@@ -142,8 +143,31 @@
 .about__laptop{
     width: 90%;
 }
+.top__button{
+    position: absolute;
+    top: 90vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.top, .top:focus, .top:active{
+    padding: 10px 10px;
+   border: 2px solid white;
+    color: white;
+   background-color: transparent;
+    font-size: 22px;
+    text-decoration: none;
+    border-color: white;
+    text-decoration: none;
+    list-style: none;
 
 
+}
+.top:hover{
+    background-color: white;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
 
 
 
