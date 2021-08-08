@@ -179,7 +179,15 @@
 
 
 
+@media (max-width:600px){
+    .skills__primary{
+        font-size: 20px;
 
+    }
+    p{
+        font-size: 16px !important;
+    }
+}
 
 
 
